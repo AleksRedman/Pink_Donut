@@ -1,0 +1,40 @@
+
+build
+
+node_modules
+
+npm-debug.log
+
+### Windows template
+
+# Windows image file caches
+
+Thumbs.db
+
+
+#Folders config file
+
+Desctop.ini
+
+
+# Recycle bin used on file shares
+
+$RECYCLE.BIN/
+
+
+# windows Installer file
+
+*.cab
+
+*.msi
+
+*.msm
+
+*.msp
+
+
+# Windows shortcuts
+
+*.ink
+
+

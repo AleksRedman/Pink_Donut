@@ -1,13 +1,17 @@
 // Fonts
 
-$ff-main: 'helvetica-neue-regular';
-$ff-main-light: 'helvetica-neue-light';
-$ff-steps: 'georgia-bold';
+$ff-main: 'opensans-light';
+$ff-main-regular: 'opensans-regular';
+$ff-titles: 'big-john';
 
 //Colors
 
-$color-link: #424242;
-$color-link-hover: #de2b24;
-$color-border-top: #e2e2e2;
-$color-font-approch: #424242;
-$color-form-section: #1287bf;
+$color-bg-header: #fdd200;
+$color-bg-body: #fef9fd;
+$color-bg-footer: #d2eae3;
+$color-bg-links-hover: #000000;
+$color-font: #000000;
+$color-font-desr: #8c898b;
+$color-font-links: $color-font;
+$color-font-links-header-hover: $color-bg-header;
+$color-font-links-footer-hover: $color-bg-footer;

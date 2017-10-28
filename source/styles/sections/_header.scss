@@ -1,3 +1,5 @@
 .header{
-    background-color: $color-bg-header;
+    min-height: 800px;
+	background: $color-bg-header url(../images/bg_header.jpg) no-repeat 0% 0%;
+	padding-bottom: 150px;
 }

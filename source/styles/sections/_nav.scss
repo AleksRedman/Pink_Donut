@@ -41,3 +41,7 @@
 .nav--footer{
     justify-content: flex-end;
 }
+
+.nav--footer a.nav__link:hover{
+	color: $color-font-links-footer-hover;	
+}

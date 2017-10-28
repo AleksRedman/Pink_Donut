@@ -1,18 +1,43 @@
 .nav{
+	padding-top: 45px;
+	padding-bottom: 45px;
     
     &__list{
-        
+        display: flex;
+		
     }
+	
+	&__item{
+		
+	}
     
     &__link{
-        
+        display: inline-block;
+		text-decoration: none;
+		text-align: center;
+		vertical-align: middle;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		padding-left: 25px;
+		padding-right: 25px;
+		border-radius: 20px;
+		font-size: 18px;
+		font-family: $ff-titles;
+		color: $color-font-links;
+		text-transform: uppercase;
+		
+		
+		&:hover{
+			background-color: $color-bg-links-hover;
+			color: $color-font-links-header-hover;
+		}
     }
 }
 
 .nav--header{
-    
+    justify-content: flex-start;
 }
 
 .nav--footer{
-    
+    justify-content: flex-end;
 }

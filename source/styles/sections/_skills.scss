@@ -1,39 +1,82 @@
 .skills{
+	margin-bottom: 130px;
+	padding-top: 100px;
+	position: relative;
 	
+	&::before{
+		content: "";
+		display: block;
+		position: absolute;
+		height: 225px;
+		width: 5px;
+		top: 8px;
+		left: 50%;
+		margin-left: -2px;
+		background: url(../images/dashed_line.png) no-repeat;
+	}
 	
 	&__header{
-		
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-bottom: 135px;
 	}
 	
 	&__title{
-		
+		max-width: 670px;
+		margin-right: 100px;
+	}
+	
+	&__descr{
+		max-width: 670px;
+		font-family: $ff-main;
+		font-size: 18px;
+		line-height: 30px;
+		padding-left: 130px;
+		color: #000;
 	}
 	
 	&__features-wrap{
-		
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 	
 	&__feature{
-		
+		flex-grow: 1;
+		text-align: center;
+		max-width: 450px;
 	}
 	
-	&__feature--headphones{
-		
+	&__img{
+		width: 100%;
+		height: 335px;
 	}
 	
-	&__feature--monitor{
-		
+	&__img--headphones{
+		background: url(../images/Headphones.png) no-repeat center bottom;
 	}
 	
-	&__feature--photocam{
-		
+	&__img--monitor{
+		background: url(../images/Screen.png) no-repeat center bottom;
+	}
+	
+	&__img--photocam{
+		background: url(../images/Photo.png) no-repeat center bottom;
 	}
 	
 	&__feature-title{
-		
+		font-size: 18px;
+		text-transform: uppercase;
+		font-family: $ff-titles;
+		color: #000;
 	}
 	
 	&__feature-descr{
-		
+		font-family: $ff-main;
+		font-size: 18px;
+		line-height: 30px;
+		color: #000;
 	}
 }

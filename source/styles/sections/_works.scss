@@ -1,21 +1,61 @@
 .works{
+	position: relative;
+	padding-top: 120px;
+	margin-bottom: 85px;
+	text-align: center;
 	
+	&::before{
+		content: "";
+		display: block;
+		position: absolute;
+		height: 225px;
+		width: 31px;
+		top: 8px;
+		left: 50%;
+		margin-left: -15px;
+		background: url(../images/Scroll_line.png) no-repeat;
+	}
 	
+	&__top{
+		display: flex;
+		justify-content: flex-end;
+	}
 	
+	&__header{
+		width: 50%;
+		text-align: center;
+		margin-bottom: 86px;
+	}
 	
 	&__title{
 		
 	}
 	
 	&__gallery{
-		
+		margin: 0 auto;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-bottom: 65px;
 	}
 	
 	&__gallery-wrap{
-		
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
 	}
 	
 	&__item{
-		
+		max-width: 475px;
+		max-height: 475px;
+		flex-basis: 320px;
+		margin: 0;
+		padding: 0;
+	}
+	
+	&__btn{
+		background: $color-bg-body;
+		margin: 0 auto;
 	}
 }

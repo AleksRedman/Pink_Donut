@@ -1,48 +1,86 @@
 .about{
+	padding-top: 100px;
+	position: relative;
+	padding-bottom: 64px;
 	
+	&::before{
+		content: "";
+		display: block;
+		position: absolute;
+		height: 225px;
+		width: 31px;
+		top: 8px;
+		left: 50%;
+		margin-left: -15px;
+		background: url(../images/Scroll_line.png) no-repeat;
+	}
 	
 	&__header{
-		
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-bottom: 135px;
 	}
 	
 	&__title{
-		
+		max-width: 670px;
+		margin-right: 100px;
 	}
 	
 	&__deskr{
-		
+		max-width: 670px;
+		font-family: $ff-main;
+		font-size: 18px;
+		line-height: 30px;
+		padding-left: 130px;
+		color: #000;
 	}
 	
 	&__features-wrap{
-		
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
 	}
 	
 	&__feature{
-		
+		flex-grow: 1;
+		text-align: center;
+		max-width: 445px;
+		padding-top: 270px;
 	}
 	
-	&__feature--75{
-		
+	&__feature--ps{
+		background: url(../images/Circle_kn.png) no-repeat center top;
 	}
 	
-	&__feature--65{
-		
+	&__feature--il{
+		background: url(../images/Circle_il.png) no-repeat center top;
 	}
 	
-	&__feature--25{
-		
+	&__feature--kn{
+		background: url(../images/Circle_ps.png) no-repeat center top;
 	}
 	
 	&__features-percent{
-		
+		font-size: 48px;
+		font-family: $ff-titles;
+		text-align: 1.3;
 	}
 	
 	&__feature-title{
-		
+		font-size: 18px;
+		text-transform: uppercase;
+		font-family: $ff-titles;
+		color: #000;
 	}
 	
 	&__feature-descr{
-		
+		font-family: $ff-main;
+		font-size: 18px;
+		line-height: 30px;
+		color: #000;
 	}
 	
 }

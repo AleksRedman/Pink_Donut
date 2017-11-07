@@ -1,8 +1,10 @@
 footer.footer
 	.container
+		.footer__header
+			.footer__title-wrap
+				h2.footer__title.main_titles Contact
 		.footer__top
 			.footer__contacts-wrap
-				h2.footer__title.main_titles Contact
 				.footer__soc-networks
 					a(href="#").footer__network.footer__network--fb Facebook
 					a(href="#").footer__network.footer__network--tw Twitter
@@ -10,18 +12,24 @@ footer.footer
 					a(href="#").footer__network.footer__network--pin Pinterest
 					a(href="#").footer__network.footer__network--lin Linkedin
 				.footer__contacts
-					h3.footer__address Address
-					p.footer__address-descr There are many variations of passages of Lorem Ipsum available
-					h3.footer__tel Phone
-					p.footer__phone +48 202-555-0114
+					.footer__cont-wrap.footer__cont-wrap__address
+						h3.footer__contact-title Address
+						p.footer__contact-descr 9114 Bridge Street, Hillsboro, OR 97124
+					.footer__cont-wrap.footer__cont-wrap__phone
+						h3.footer__contact-title Phone
+						p.footer__contact-descr +48 202-555-0114
+					.footer__cont-wrap.footer__cont-wrap__email
+						h3.footer__contact-title Email
+						p.footer__contact-descr contact@yoursite.com
+					
 			form(method="post" action="#").footer__form
-				p: label(for="name").footer__inputs Name.
+				p: label(for="name").footer__input-title Name.
 				input(type="text" name="name" id="name")
-				p: label(for="email").footer__inputs Email.
+				p: label(for="email").footer__input-title Email.
 				input(type="email" name="email" id="email")
-				p: label(for="Message").footer__inputs Massege.
+				p: label(for="Message").footer__input-title Massege.
 				textarea( name="Message" id="Message")
-				button(type="submit").btn Send
+				button(type="submit").btn.footer__btn Send
 		.footer__bottom
 			.footer__copy
 				p.footer__copy-descr Copyright 2015 &copy by Anna Dadej

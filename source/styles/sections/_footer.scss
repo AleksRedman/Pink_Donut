@@ -9,25 +9,29 @@
 	}
 	
 	&__title-wrap{
-		width: 50%;
-		text-align: center;
-		padding-left: 55px;
+		width: 42%;
+		text-align: left;
 	}
 	
 	&__title{
-		padding-left: 40px;
-		padding-right: 40px;
+		padding-left: 30px;
+		padding-right: 30px;
 		letter-spacing: 5px;
 	}
 	
 	&__top{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		flex-direction: row-reverse;
 	}
 	
 	&__contacts-wrap{
 		padding-top: 82px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		min-width: 40%;
+		
 	}
 	
 	&__soc-networks{
@@ -162,7 +166,11 @@
 	}
 	
 	&__bottom{
-		
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
 	}
 	
 	&__copy{
@@ -170,6 +178,8 @@
 	}
 	
 	&__copy-descr{
-		
+		font-family: $ff-titles;
+		font-size: 18px;
+		text-transform: uppercase;
 	}
 }

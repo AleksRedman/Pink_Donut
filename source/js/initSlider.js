@@ -4,7 +4,7 @@ $(document).ready(function () {
 		accessibility: true,
 		adaptiveHeight: true,
 		arrows: false,
-		dots: false,
+		dots: true,
 		mobileFirst: true,
 		vertical: false,
 		verticalSwiping: false

@@ -4,6 +4,10 @@
 	padding-bottom: 240px;
 	position: relative;
 	
+	@media (max-width: 1024px){
+		padding-bottom: 30px;
+	}
+	
 	&::after{
 		content: "";
 		display: block;
@@ -14,5 +18,9 @@
 		left: 50%;
 		margin-left: -15px;
 		background: url(../images/Scroll_line.png) no-repeat;
+		
+		@media (max-width: 1024px){
+			display: none;
+		}
 	}
 }

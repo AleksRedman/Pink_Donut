@@ -13,6 +13,10 @@
 		left: 50%;
 		margin-left: -2px;
 		background: url(../images/dashed_line.png) no-repeat;
+		
+		@media (max-width: 1024px){
+			display: none;
+		}
 	}
 	
 	&__header{

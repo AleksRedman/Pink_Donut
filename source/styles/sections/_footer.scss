@@ -2,15 +2,28 @@
 	background-color: $color-bg-footer;
 	padding-top: 110px;
 	
+	@media (max-width: 1024px){
+			padding-top: 20px;
+		}
+	
 	&__header{
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
+		
+		@media (max-width: 1024px){
+			justify-content: center;
+			margin-bottom: 80px;
+		}
 	}
 	
 	&__title-wrap{
 		width: 42%;
 		text-align: left;
+		
+		@media (max-width: 1024px){
+			text-align: center;
+		}
 	}
 	
 	&__title{

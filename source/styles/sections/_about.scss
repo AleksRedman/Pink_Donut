@@ -3,6 +3,11 @@
 	position: relative;
 	padding-bottom: 64px;
 	
+	@media (max-width: 1024px){
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	
 	&::before{
 		content: "";
 		display: block;
@@ -30,6 +35,11 @@
 	&__title{
 		max-width: 670px;
 		margin-right: 100px;
+		
+		@media (max-width: 1024px){
+			margin: 0 auto;
+			margin-bottom: 40px;
+		}
 	}
 	
 	&__deskr{
@@ -39,6 +49,12 @@
 		line-height: 30px;
 		padding-left: 130px;
 		color: #000;
+		
+		@media (max-width: 1024px){
+			max-width: 70%;
+			padding-left: 0;
+			text-align: center;
+		}
 	}
 	
 	&__features-wrap{

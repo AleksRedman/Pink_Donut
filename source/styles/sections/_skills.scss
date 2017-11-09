@@ -3,6 +3,11 @@
 	padding-top: 100px;
 	position: relative;
 	
+	@media (max-width: 1024px){
+		margin-bottom: 30px;
+		padding-top: 50px;
+	}
+	
 	&::before{
 		content: "";
 		display: block;
@@ -25,11 +30,20 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		margin-bottom: 135px;
+		
+		@media (max-width: 1024px){
+		margin-bottom: 50px;
+		}
 	}
 	
 	&__title{
 		max-width: 670px;
 		margin-right: 100px;
+		
+		@media (max-width: 1024px){
+			margin: 0 auto;
+			margin-bottom: 40px;
+		}
 	}
 	
 	&__descr{
@@ -39,6 +53,12 @@
 		line-height: 30px;
 		padding-left: 130px;
 		color: #000;
+		
+		@media (max-width: 1024px){
+			max-width: 70%;
+			padding-left: 0;
+			text-align: center;
+		}
 	}
 	
 	&__features-wrap{

@@ -36,10 +36,18 @@
 
 .nav--header{
     justify-content: flex-start;
+	
+	@media (max-width: 1024px){
+		justify-content: center;
+	}
 }
 
 .nav--footer{
     justify-content: flex-end;
+	
+	@media (max-width: 1024px){
+		justify-content: center;
+	}
 }
 
 .nav--footer a.nav__link:hover{

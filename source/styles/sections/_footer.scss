@@ -171,6 +171,10 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
+		
+		@media (max-width: 1124px){
+			justify-content: center;
+		}
 	}
 	
 	&__copy{

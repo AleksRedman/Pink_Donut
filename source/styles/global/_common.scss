@@ -61,9 +61,13 @@
 	}
 	
 	@media (max-width: 1024px){
-			display: block;
-			margin: 0 auto;
-		}
+		display: block;
+		margin: 0 auto;
+	}
+	
+	@media (max-width: 860px){
+		font-size: 48px;
+	}
 }
 
 .is-hidden{

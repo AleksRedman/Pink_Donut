@@ -28,11 +28,12 @@
 		display: flex;
 		justify-content: center;
 		flex-direction: row;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		margin-bottom: 135px;
 		
 		@media (max-width: 1024px){
-		margin-bottom: 50px;
+			margin-bottom: 50px;
+			flex-wrap: wrap;
 		}
 	}
 	

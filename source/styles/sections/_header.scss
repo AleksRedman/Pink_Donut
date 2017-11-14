@@ -6,10 +6,12 @@
 	
 	@media (max-width: 1124px){
 		background-size: 120% auto;
+		background-position: center center;
 	}
 	
 	@media (max-width: 1024px){
 		padding-bottom: 30px;
+		min-height: auto;
 	}
 	
 	&::after{

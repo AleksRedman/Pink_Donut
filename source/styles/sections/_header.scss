@@ -4,6 +4,10 @@
 	padding-bottom: 240px;
 	position: relative;
 	
+	@media (max-width: 1124px){
+		background-size: 120% auto;
+	}
+	
 	@media (max-width: 1024px){
 		padding-bottom: 30px;
 	}

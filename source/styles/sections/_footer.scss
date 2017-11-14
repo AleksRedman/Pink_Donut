@@ -229,5 +229,9 @@
 		font-family: $ff-titles;
 		font-size: 18px;
 		text-transform: uppercase;
+		
+		@media (max-width: 1440px){
+			padding-left: 10px;
+		}
 	}
 }

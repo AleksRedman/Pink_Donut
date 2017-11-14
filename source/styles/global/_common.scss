@@ -46,7 +46,7 @@
 		position: absolute;
 		width: 100%;
 		border-bottom: 4px solid #000;
-		left: 0;
+		left: -20px;
 		bottom: 0;
 	}
 	
@@ -56,13 +56,14 @@
 		position: absolute;
 		width: 100%;
 		border-bottom: 4px solid #000;
-		left: 40px;
+		left: 20px;
 		bottom: -8px;
 	}
 	
 	@media (max-width: 1024px){
 		display: block;
 		margin: 0 auto;
+		padding-left: 10px;
 	}
 	
 	@media (max-width: 860px){

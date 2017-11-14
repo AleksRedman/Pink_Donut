@@ -35,6 +35,10 @@
 			margin-bottom: 50px;
 			flex-wrap: wrap;
 		}
+		
+		@media (max-width: 996px){
+			margin-bottom: 10px;
+		}
 	}
 	
 	&__title{
@@ -66,12 +70,25 @@
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		
+		@media (max-width: 1024px){
+			margin: 0 auto;
+		}
 	}
 	
 	&__feature{
 		flex-grow: 1;
 		text-align: center;
 		max-width: 450px;
+		
+		@media (max-width: 1024px){
+			margin: 0 auto;
+		}
+		
+		@media (max-width: 996px){
+			flex-basis: 500px;
+			min-width: 500px;
+		}
 	}
 	
 	&__img{

@@ -48,6 +48,12 @@
 	@media (max-width: 1024px){
 		justify-content: center;
 	}
+	
+	@media (max-width: 615px){
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}	
 }
 
 .nav--footer a.nav__link:hover{

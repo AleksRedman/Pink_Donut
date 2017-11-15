@@ -64,15 +64,35 @@
 	&__features-wrap{
 		display: flex;
 		justify-content: space-between;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		margin-bottom: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+		
+		@media (max-width: 1280px){
+			flex-wrap: wrap;
+		}
 	}
 	
 	&__feature{
 		flex-grow: 1;
 		text-align: center;
-		max-width: 445px;
+		max-width: 450px;
 		padding-top: 270px;
+		margin-right: 30px;
+		
+		@media (max-width: 1280px){
+			margin: 0 auto;
+			margin-bottom: 30px;
+		}
+		
+		@media (max-width: 996px){
+			margin-bottom: 50px;
+		}
+	}
+	
+	&__feature:last-child{
+		margin-right: auto;
 	}
 	
 	&__feature--ps{
